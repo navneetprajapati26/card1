@@ -1,0 +1,114 @@
+n h*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1cde;
+    overflow: hidden;
+
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+    min-height: 70vh;
+    width: 300px;
+    background-image: linear-gradient( -45deg,#0639e2,#4595FC, #C434E3,#e70865 );
+    padding: 30px 30px 10px 30px;
+    border-radius: 40px;
+
+}
+.card-header{
+    display: flex;
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 500px 0;
+}
+.user-profile-image{
+    background-image: url("n2.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+
+}
+.username{
+    margin-top: 10px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: white;
+    font-size: x-large;
+
+}
+.user-bio{
+    color: white;
+    font-weight: normal;
+    font-size: medium;
+}
+.about-section{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    column-gap: 40px;
+    margin: 20% 0 20% 0;
+}
+.about-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.item-value a{
+    font-weight: 700;
+    color: floralwhite;
+
+}
+.item-label{
+    font-weight: 100 ;
+}
+.card-footer{
+    font-weight: 100%;
+}
+.button-insta{
+
+}
+.follow-btn{
+    background: rgba(243, 188, 6, 0.938);
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 20px 0;
+    border-radius: 50px;
+    font-weight: 900;
+    color: #f8aa00;
+    outline: 2px  #96939475;
+    outline-offset:4px;
+    border: 2px solid #f7af13;
+    cursor: pointer;
+    transition: all 600ms;
+}
+.follow-btn:hover{
+    outline-offset: -8px;
+    color rgb(34 34 34 / 1));
+    background: none;
+
+}
+.follow-btn:nth-child(2){
+    outline-offset: -4px;
+
+}
+.follow-btn:nth-child(2):hover{
+    outline-offset: -4px;
+}
+footer,footer a{
+    color: rgb(139, 133, 133);
+    line-height: 5;
+}
